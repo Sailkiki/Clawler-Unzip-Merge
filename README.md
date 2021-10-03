@@ -6,7 +6,7 @@
 
 
 
-## 第一步：爬取信息
+## 第一步：爬虫下载压缩包和爬取页面原始json
 
 ① ： 使用**Clawler.py**这个程序， 我用的是pycharm， 在terminal下先安装必要的包 **pip install requests==2.26.0**,  **pip install lxml**。
 

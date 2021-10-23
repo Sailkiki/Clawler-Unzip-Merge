@@ -29,7 +29,7 @@ for i in range(298, 337):
     # print(ww)
 
 
-    for j in range(7, len(ww)):
+    for j in range(0, len(ww)):
         resp2 = requests.get("https://theme.npm.edu.tw/opendata/"+ww[j], headers=head, stream=True)
         resp2.encoding = 'utf-8'
         obj = re.compile(r'<li><span>(?P<ID>.*?)</span>(?P<ID_info>.*?)</li>'
